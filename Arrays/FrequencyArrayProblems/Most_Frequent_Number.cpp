@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
-   int n, x; cin>>n;
+   int n; cin>>n;
 
    int freq[n + 1]={};
    int arr[n];
