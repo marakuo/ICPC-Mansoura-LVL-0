@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
-  int number, fact =1; cin >> number;
+  int number; cin >> number;
+  long long fact = 1;
   while (number >0) {
     fact*=number;
     number--;
